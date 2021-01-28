@@ -1,0 +1,367 @@
+(15952|17368) NOTICE: "ORBVerboseLogging" is not defined in config file - using code default.
+(15952|17368) NOTICE: "DCPSDefaultAddress" is not defined in config file - using code default.
+(15952|17368) NOTICE: "DCPSMonitor" is not defined in config file - using code default.
+(15952|17368) NOTICE: "FederationRecoveryDuration" is not defined in config file - using code default.
+(15952|17368) NOTICE: "FederationInitialBackoffSeconds" is not defined in config file - using code default.
+(15952|17368) NOTICE: "FederationBackoffMultiplier" is not defined in config file - using code default.
+(15952|17368) NOTICE: "FederationLivelinessDuration" is not defined in config file - using code default.
+(15952|17368) NOTICE: "scheduler" is not defined in config file - using code default.
+(15952|17368) NOTICE: "scheduler_slice" is not defined in config file - using code default.
+(15952|17368) NOTICE: Service_Participant::load_domain_range_configuration failed to open [DomainRange] section.
+(15952|17368) NOTICE: Service_Participant::load_transport_template_configuration failed to open [transport_template] section.
+(15952|17368) NOTICE: "queue_messages_per_pool" is not defined in config file - using code default.
+(15952|17368) NOTICE: "queue_initial_pools" is not defined in config file - using code default.
+(15952|17368) NOTICE: "max_packet_size" is not defined in config file - using code default.
+(15952|17368) NOTICE: "max_samples_per_packet" is not defined in config file - using code default.
+(15952|17368) NOTICE: "optimum_packet_size" is not defined in config file - using code default.
+(15952|17368) NOTICE: "thread_per_connection" is not defined in config file - using code default.
+(15952|17368) NOTICE: "datalink_release_delay" is not defined in config file - using code default.
+(15952|17368) NOTICE: "datalink_control_chunks" is not defined in config file - using code default.
+(15952|17368) NOTICE: "default_to_ipv6" is not defined in config file - using code default.
+(15952|17368) NOTICE: "port_offset" is not defined in config file - using code default.
+(15952|17368) NOTICE: "syn_backoff" is not defined in config file - using code default.
+(15952|17368) NOTICE: "nak_delay_intervals" is not defined in config file - using code default.
+(15952|17368) NOTICE: "nak_max" is not defined in config file - using code default.
+(15952|17368) NOTICE: Service_Participant::load_domain_configuration failed to open [domain] section - using code default.
+(15952|17368) NOTICE: StaticDiscovery::parse_topics no [topic] sections.
+(15952|17368) NOTICE: StaticDiscovery::parse_datawriterqos no [datawriterqos] sections.
+(15952|17368) NOTICE: StaticDiscovery::parse_datareaderqos no [datareaderqos] sections.
+(15952|17368) NOTICE: StaticDiscovery::parse_publisherqos no [publisherqos] sections.
+(15952|17368) NOTICE: StaticDiscovery::parse_subscriberqos no [subscriberqos] sections.
+(15952|17368) NOTICE: StaticDiscovery::parse_endpoints no [endpoint] sections.
+(15952|17368) NOTICE: Service_Participant::get_domain_participant_factory - This is OpenDDS 3.15 using ACE 6.5.12.
+(15952|17368) NOTICE: Service_Participant::intializeScheduling() - no scheduling policy specified, not setting policy.
+(15952|17368) Service_Participant::get_discovery: returning default RTPS discovery for domain 111.
+(15952|17368) Spdp::SpdpTransport::open_unicast_socket() - opened unicast socket on port 35160
+(15952|17368) TransportImpl::open()
+   transport_type:               rtps_udp
+   name:                         _OPENDDS__SEDPTransportInst_0103ac2b6e30b7453e507b0f111
+   queue_messages_per_pool:      10
+   queue_initial_pools:          5
+   max_packet_size:              2147481599
+   max_samples_per_packet:       10
+   optimum_packet_size:          4096
+   thread_per_connection:        false
+   datalink_release_delay:       10000
+   datalink_control_chunks:      32
+   local_address:                0.0.0.0:63613
+   use_multicast:                true
+   multicast_group_address:      239.255.0.1:35152
+   multicast_interface:          
+   nak_depth:                    0
+   max_bundle_size:              65446
+   nak_response_delay:           200
+   heartbeat_period:             1000
+   heartbeat_response_delay:     500
+   handshake_timeout:            150000
+   send_buffer_size:             65535
+   rcv_buffer_size:              65535
+   ttl:                          1
+(15952|17368) DomainParticipantImpl::enable: enabled participant 0103ac2b.6e30b745.3e507b0f.000001c1(d78261b2) in domain 111
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) DDS::ParticipantBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c741d0 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c748b0 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSParticipant) enabled
+(15952|17368) DDS::TopicBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c73fc0 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c74b70 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSTopic) enabled
+(15952|17368) DDS::PublicationBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c73f10 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c74490 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSPublication) enabled
+(15952|17368) DDS::SubscriptionBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c74070 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c746a0 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSSubscription) enabled
+(15952|17368) OpenDDS::DCPS::ParticipantLocationBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c73db0 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c73e60 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=OpenDDSParticipantLocation) enabled
+(15952|17368) OpenDDS::DCPS::ConnectionRecordDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c745f0 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c74750 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=OpenDDSConnectionRecord) enabled
+(15952|17368) OpenDDS::DCPS::InternalThreadBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c74280 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c74120 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=OpenDDSInternalThread) enabled
+(15952|13524) Spdp::SpdpTransport::join_multicast_group joining group 239.255.0.1:35150 on all interfaces
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) DataReaderListenerImpl::DataReaderListenerImpl
+ERROR: read_interval 10 is not an even divisor of the total number of samples 128
+ERROR: The subscriber will never finish!
+(15952|17368) Xyz::Pt128DataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2c74a10 with 20 chunks
+(15952|17368) DataReaderImpl::enable Cached_Allocator_With_Overflow 2c74540 with 20 chunks
+(15952|17368) Service_Participant::get_discovery: returning repository for domain 111, repo DEFAULT_RTPS.
+(15952|17368) TransportImpl::open()
+   transport_type:               multicast
+   name:                         multicast
+   queue_messages_per_pool:      10
+   queue_initial_pools:          5
+   max_packet_size:              2147481599
+   max_samples_per_packet:       10
+   optimum_packet_size:          4096
+   thread_per_connection:        false
+   datalink_release_delay:       10000
+   datalink_control_chunks:      32
+
+   group_address:                224.1.0.129:49444
+   local_address:                172.20.10.2
+   default_to_ipv6:              false
+   port_offset:                  49152
+   reliable:                     true
+   syn_backoff:                  2
+   syn_interval:                 12000
+   syn_timeout:                  1000000
+   nak_depth:                    10000
+   nak_interval:                 60000
+   nak_delay_intervals:          4
+   nak_max:                      3
+   nak_timeout:                  200000
+   ttl:                          3
+   rcv_buffer_size:              2000000
+   async_send:                   false
+(15952|17368) Sedp::write_subscription_data_unsecure - not currently associated, dropping msg.
+(15952|17368) EndpointManager::add_subscription - calling match_endpoints
+(15952|17368) SubscriberImpl::reader_enabled, datareader(topic_name=PerfTest) enabled
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|13524) Spdp::handle_participant_data - 0103ac2b.6e30b745.3e507b0f.000001c1(d78261b2) discovered 0103ac2b.6e30b745.432404ff.000001c1(4ab0fe82) lease 300s
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x200.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x400.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000003c7(0cd7a605) and remote 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba)
+(15952|13524) TransportReceiveStrategy-mb Cached_Allocator_With_Overflow 2cbe440 with 1000 chunks
+(15952|13524) TransportReceiveStrategy-db Cached_Allocator_With_Overflow 2cbe4d0 with 100 chunks
+(15952|13524) TransportReceiveStrategy-data Cached_Allocator_With_Overflow 2cbe560 with 100 chunks
+(15952|13524) RtpsUdpDataLink::join_multicast_group joining group 239.255.0.1:35152 on 
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) RtpsUdpTransport::accept_datalink pending.
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000004c7(439630c2) and remote 0103ac2b.6e30b745.432404ff.000004c2(aece5b7d)
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000004c2(aece5b7d) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) RtpsUdpTransport::accept_datalink pending.
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000200c7(247e21a8) and remote 0103ac2b.6e30b745.432404ff.000200c2(c9264a17)
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000200c2(c9264a17) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) RtpsUdpTransport::accept_datalink pending.
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) and remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) PendingAssoc::initiate_connect - between 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) and remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) TransportClient::initiate_connect_i - attempt to connect_datalink between local 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) and remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000003c7(91e53935) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) TransportClient::initiate_connect_i - connection between local 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) and remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935) initiation successful
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C24900) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C24900) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) DataLink::make_reservation() - creating association local publication  0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) <--> with remote subscription 0103ac2b.6e30b745.432404ff.000003c7(91e53935).
+(15952|13524) DEBUG: Sedp::association_complete_i local 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) RtpsUdpDataLink::end_historic_samples local 0103ac2b.6e30b745.3e507b0f.000003c2(7cbd528a) remote 0103ac2b.6e30b745.432404ff.000003c7(91e53935)
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) and remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) PendingAssoc::initiate_connect - between 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) and remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) TransportClient::initiate_connect_i - attempt to connect_datalink between local 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) and remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) TransportClient::initiate_connect_i - connection between local 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) and remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2) initiation successful
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C393E0) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C393E0) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) DataLink::make_reservation() - creating association local publication  0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) <--> with remote subscription 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2).
+(15952|13524) DEBUG: Sedp::association_complete_i local 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) to_param_list(drd) - Multicast transport with RTPS discovery has known issues(15952|13524) RtpsUdpDataLink::customize_queue_element() - storing durable data for local 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2) seq 1
+(15952|13524) RtpsUdpDataLink::end_historic_samples local 0103ac2b.6e30b745.3e507b0f.000004c2(33fcc44d) remote 0103ac2b.6e30b745.432404ff.000004c7(dea4aff2)
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) and remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) PendingAssoc::initiate_connect - between 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) and remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) TransportClient::initiate_connect_i - attempt to connect_datalink between local 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) and remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) RtpsUdpDataLink::add_locators 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98) is now at 172.20.10.2:55780 and 239.255.0.1:35152
+(15952|13524) TransportClient::initiate_connect_i - connection between local 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) and remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98) initiation successful
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3A7D0) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3A7D0) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) DataLink::make_reservation() - creating association local publication  0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) <--> with remote subscription 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98).
+(15952|13524) DEBUG: Sedp::association_complete_i local 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) RtpsUdpDataLink::end_historic_samples local 0103ac2b.6e30b745.3e507b0f.000200c2(5414d527) remote 0103ac2b.6e30b745.432404ff.000200c7(b94cbe98)
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x200.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x400.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3ABB0) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3ABB0) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba)
+(15952|13524) DataLink::make_reservation() - creating association local subscription 0103ac2b.6e30b745.3e507b0f.000003c7(0cd7a605) <--> with remote publication  0103ac2b.6e30b745.432404ff.000003c2(e18fcdba).
+(15952|13524) DataLink::data_received_i: from publication 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba) received sample: SAMPLE_DATA (0x00), Length: 140, Byte order: Little Endian, CDR Encapsulation, Sequence: 0x01, Timestamp: 1611811491.287903999, Publication: 0103ac2b.6e30b745.432404ff.000003c2(e18fcdba) to readerId 0103ac2b.6e30b745.3e507b0f.000003c7(0cd7a605) (SET_EXCLUDED).
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x200.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|13524) ConditionImpl::signal_all()
+(15952|13524) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x400.
+(15952|13524) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|13524) Sedp::data_received(dwd) - calling match_endpoints new
+(15952|13524) EndpointManager::match - adding reader 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) association for writer 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|13524) DataReaderImpl::add_association - bit 0 local 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|13524) WriterInfo::WriterInfo: writer 0103ac2b.6e30b745.432404ff.00000003(26c16c5f) added to reader 0103ac2b.6e30b745.3e507b0f.00000004(259766cc).
+(15952|13524) DataReaderImpl::add_association: inserted writer 0103ac2b.6e30b745.432404ff.00000003(26c16c5f).return 1 
+(15952|13524) DataReaderImpl::add_association: reader 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) is associated with writer 0103ac2b.6e30b745.432404ff.00000003(26c16c5f).
+(15952|13524) TransportClient::associate added PendingAssoc between 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) and remote 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|13524) MulticastTransport[multicast]::make_datalink peers: local 0x6e30b7453e507b0f priority 0 active 0
+(15952|13524) TransportReceiveStrategy-mb Cached_Allocator_With_Overflow 35ec180 with 1000 chunks
+(15952|13524) TransportReceiveStrategy-db Cached_Allocator_With_Overflow 35ec210 with 100 chunks
+(15952|13524) TransportReceiveStrategy-data Cached_Allocator_With_Overflow 35ec2a0 with 100 chunks
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3AF80) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000004c2(aece5b7d)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3AF80) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000004c2(aece5b7d)
+(15952|13524) DataLink::make_reservation() - creating association local subscription 0103ac2b.6e30b745.3e507b0f.000004c7(439630c2) <--> with remote publication  0103ac2b.6e30b745.432404ff.000004c2(aece5b7d).
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3B350) using datalink[0000000002CB9010] from 0103ac2b.6e30b745.432404ff.000200c2(c9264a17)
+(15952|13524) TransportClient::use_datalink_i TransportClient(0000000002C3B350) about to add_link[0000000002CB9010] to remote: 0103ac2b.6e30b745.432404ff.000200c2(c9264a17)
+(15952|13524) DataLink::make_reservation() - creating association local subscription 0103ac2b.6e30b745.3e507b0f.000200c7(247e21a8) <--> with remote publication  0103ac2b.6e30b745.432404ff.000200c2(c9264a17).
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) MulticastSession[multicast]::syn_received local 0x6e30b7453e507b0f 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0x6e30b745432404ff 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|18060) MulticastTransport[multicast]::passive_connection from remote peer 0x6e30b745432404ff to local peer 0x6e30b7453e507b0f
+(15952|18060) TransportClient::use_datalink_i TransportClient(0000000002C96788) using datalink[00000000035E89B0] from 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|18060) TransportClient::use_datalink_i TransportClient(0000000002C96788) about to add_link[00000000035E89B0] to remote: 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|18060) DataLink::make_reservation() - creating association local subscription 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) <--> with remote publication  0103ac2b.6e30b745.432404ff.00000003(26c16c5f).
+(15952|18060) DataReaderImpl::transport_assoc_done: id_to_handle_map_[ 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)] = 0x5.
+(15952|18060) ConditionImpl::signal_all()
+(15952|18060) StatusConditionImpl::get_trigger_value() - mask==0xffffffff, changes==0x4000.
+(15952|18060) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) MulticastSession[multicast]::syn_received local 0x6e30b7453e507b0f 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0x6e30b745432404ff 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) ReliableSession::send_naks local 0x6e30b7453e507b0f remote 0x6e30b745432404ff nak request size 0 
+(15952|18060) DisjointSequence[38AEDC8]::dump included ranges of SequenceNumbers:
+(15952|18060) DisjointSequence[38AEDC8]::dump	3-4
+(15952|18060) ReliableSession::send_naks  local 0x6e30b7453e507b0f remote 0x6e30b745432404ff [1 - 3]
+(15952|18060) Cached_Allocator_With_Overflow::malloc 00000000035D9E60 2 pool allocs 1 pool free with 10000 available
+(15952|18060) MulticastSession[multicast]::syn_received local 0x6e30b7453e507b0f 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0x6e30b745432404ff 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) MulticastSession[multicast]::syn_received local 0x6e30b7453e507b0f 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0x6e30b745432404ff 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) ReliableSession::send_naks local 0x6e30b7453e507b0f remote 0x6e30b745432404ff nak request size 1 
+(15952|18060) ReliableSession::send_naks local 0x6e30b7453e507b0f remote 0x6e30b745432404ff nak sequence not disjoint, don't send naks 
+(15952|18060) ReliableSession::send_naks - local 0x6e30b7453e507b0f remote 0x6e30b745432404ff nak_sequence includes: [1 - 6]
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|18060) MulticastSession[multicast]::syn_received local 0x6e30b7453e507b0f 0103ac2b.6e30b745.3e507b0f.00000004(259766cc) remote 0x6e30b745432404ff 0103ac2b.6e30b745.432404ff.00000003(26c16c5f)
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
+(15952|17368) DataReaderListenerImpl 0 of 128 samples received
